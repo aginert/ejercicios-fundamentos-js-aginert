@@ -32,4 +32,8 @@ let gente = [{
         nombre: 'Jenny',
         edad: 10
     },
-]
+];
+
+for (const edad of gente, <25) {
+    console.log(gente);
+}
