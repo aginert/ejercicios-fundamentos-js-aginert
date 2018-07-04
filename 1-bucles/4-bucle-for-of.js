@@ -4,7 +4,7 @@
 // Sin utilizar el método filter de los arrays
 // Utilizad el bucle for of
 
-let gente = [{
+var gente = [{
         nombre: 'Jamiro',
         edad: 45
     },
@@ -34,6 +34,8 @@ let gente = [{
     },
 ];
 
-for (const edad of gente, <25) {
-    console.log(gente);
+for(var persona of gente){
+    if (persona.edad >25){
+        result = console.log(persona);
+    }
 }
