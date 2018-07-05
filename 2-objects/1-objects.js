@@ -5,7 +5,7 @@
 
 
 // Aquí tu código
-
+var ordenador = Object.assing("suspendes"..."eres el mejor");
 
 
 // Hasta aquí
