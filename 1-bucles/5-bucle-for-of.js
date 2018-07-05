@@ -4,7 +4,7 @@
 // Utilizad el bucle for of
 // y muéstralo por consola.
 
-let gente = [{
+var gente = [{
         nombre: 'Jamiro',
         edad: 45
     },
@@ -33,3 +33,11 @@ let gente = [{
         edad: 10
     },
 ]
+
+var miArrayJ = [];    
+for (var persona of gente){
+     if (persona.nombre[0] == "J"){
+        miArrayJ.push(persona);  
+    }
+}    
+console.log(miArrayJ);
