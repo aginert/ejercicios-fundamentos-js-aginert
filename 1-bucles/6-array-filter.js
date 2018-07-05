@@ -3,7 +3,7 @@
 // utilizando el método filter de los arrays
 // y muéstralo por consola.
 
-let gente = [{
+var gente = [{
         nombre: 'Jamiro',
         edad: 45
     },
@@ -33,4 +33,11 @@ let gente = [{
     },
 ]
 
+// var arrayCuatro;
+// arrayCuatro = gente.filter(function(persona){
+//     return persona.nombre.lenght == 4
+// });
+// console.log(arrayCuatro);
 
+var arrayCuatro = gente.filter(personas => personas.nombre.length == 4);
+console.log(arrayCuatro);
