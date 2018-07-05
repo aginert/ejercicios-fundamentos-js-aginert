@@ -7,8 +7,20 @@
 //   ['20','21','22']
 // ];
 
-let matriz = [
+
+
+var matriz = [
     [],
     [],
     []
 ]
+
+ for(var i = 0; i < 3; i++){
+    for(var j = 0; j < 3; j++){
+       matriz [i][j];
+    
+    }
+ }
+    console.log(matriz);
+
+ 
