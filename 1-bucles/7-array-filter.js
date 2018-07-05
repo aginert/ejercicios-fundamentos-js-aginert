@@ -5,7 +5,7 @@
 // y muéstralo por consola.
 
 
-let gente = [{
+var gente = [{
         nombre: 'Jamiro',
         edad: 45
     },
@@ -35,3 +35,14 @@ let gente = [{
     },
 ]
 
+var dosCondiciones;
+var dosCondiciones = gente.filter(function(persona){
+    return persona.nombre[0]=="J" && persona.edad <40
+});
+console.log(dosCondiciones); 
+
+
+// arrayCuatro = gente.filter(function(persona){
+//     return persona.nombre.lenght == 4
+// });
+// console.log(arrayCuatro);
