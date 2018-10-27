@@ -36,6 +36,6 @@ var gente = [{
 
 for(var persona of gente){
     if (persona.edad >25){
-        result = console.log(persona);
+        console.log(persona);
     }
 }
