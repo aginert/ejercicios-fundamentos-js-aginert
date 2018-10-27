@@ -7,10 +7,10 @@
 //     console.log(i+" * "+j+" = "+ i*j );
 //    }
  // }
+var j = 7;
 
+for (var i = 1; i <=10; i++ ) {
+    console.log(j+" * "+i+" = "+ j*i);
+}
 
-var i =7;
-    for(var j = 1; j <=10; j++) {
-      console.log(i+" * "+j+" = "+ i*j );
-    }
   
