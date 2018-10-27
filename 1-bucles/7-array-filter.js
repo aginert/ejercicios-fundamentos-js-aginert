@@ -4,7 +4,10 @@
 // utilizando el método filter de los arrays
 // y muéstralo por consola.
 
+var arrayDosCondi = [];
 
+arrayDosCondi = gente.filter(personas => personas.nombre [0] === "j"; personas.edad<40)
+console.log(arrayDosCondi);
 var gente = [{
         nombre: 'Jamiro',
         edad: 45
@@ -35,14 +38,15 @@ var gente = [{
     },
 ]
 
-var dosCondiciones;
-var dosCondiciones = gente.filter(function(persona){
-    return persona.nombre[0]=="J" && persona.edad <40
-});
-console.log(dosCondiciones); 
+// var arrayDosCondi = [];
 
+arrayDosCondi = gente.filter(personas => personas.nombre [0] === "j"; personas.edad<40)
+console.log(arrayDosCondi);
 
-// arrayCuatro = gente.filter(function(persona){
-//     return persona.nombre.lenght == 4
+// var dosCondiciones;
+// var dosCondiciones = gente.filter(function(persona){
+//     return persona.nombre[0]=="J"; persona.edad <40
 // });
-// console.log(arrayCuatro);
+// console.log(dosCondiciones); 
+
+
