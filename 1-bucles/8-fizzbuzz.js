@@ -24,13 +24,10 @@
 
 // geeksHubs();
 
-
-// function geeksHubsTer() {
     for(var i = 1; i <= 100; i++){
         var e = i%3 & i%5 == 0;
         var b = i%5 == 0;
         var c = i%3 == 0;   
         console.log( e? "GEEKS HUBS":  b? "HUBS": c? "GEEKS": i);
     }  
-// } 
 
