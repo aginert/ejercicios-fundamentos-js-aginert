@@ -39,5 +39,6 @@ var gente = [{
 // });
 // console.log(arrayCuatro);
 
-var arrayCuatro = gente.filter(personas => personas.nombre.length == 4);
+var arrayCuatro = [];
+arrayCuatro = gente.filter ( personas => personas.nombre.length === 4);
 console.log(arrayCuatro);
