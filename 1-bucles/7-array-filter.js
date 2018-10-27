@@ -6,7 +6,7 @@
 
 var arrayDosCondi = [];
 
-arrayDosCondi = gente.filter(personas => personas.nombre [0] === "j"; personas.edad<40)
+arrayDosCondi = gente.filter(personas => personas.nombre [0] === "j", personas.edad<40)
 console.log(arrayDosCondi);
 var gente = [{
         nombre: 'Jamiro',
