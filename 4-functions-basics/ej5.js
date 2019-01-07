@@ -8,7 +8,13 @@
 
 let cuentaCaracteres = (texto) => {
     // Aquí tu código.  Desde aquí:
-   
+    if(typeof texto !="string"){
+        //si el dato recibido no es un string devuelve por pantalla este aviso
+        return 'Debo ser ejecutada con un string';
+    } else {
+        //si es un string, que devuelta su longitud
+        return texto.length;
+    }
     
     // Hasta aquí.
 }
