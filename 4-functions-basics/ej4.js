@@ -11,7 +11,17 @@
 let ultimoCaracter = (texto) => {
     // Aquí tu código.  Desde aquí:
   
-
+    if(typeof texto !="string"){
+        //si no es del tipo string, que devuelva mensaje
+        return 'Debo ser ejecutada con un string';
+    } else if (texto == "") {
+        //si es un string vacío que devuelva mensaje
+        return 'Debo ser ejecutada con un string no vacío';
+    } else {
+        //devolver el último caracter del string
+        caracterFinal = texto.charAt(texto.length-1);
+        return caracterFinal;
+    }
 
     // Hasta aquí.
 }
