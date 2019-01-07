@@ -1,4 +1,4 @@
-////////////////////////////// 
+
 //  6
 //  Crea un array nuevo llamado dobleArr
 //  cada item ha de ser el doble de cada item del array llamado arr

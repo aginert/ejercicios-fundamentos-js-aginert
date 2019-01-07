@@ -34,10 +34,16 @@ var gente = [{
     },
 ];
 
-var miArrayEdad = [];
-for(var persona of gente){ 
+// var miArrayEdad = [];
+// for(var persona of gente){ 
+//     if (persona.edad >25){
+//         miArrayEdad.push (persona);
+//     }
+// }
+// console.log(miArrayEdad);
+
+for(var persona of gente){
     if (persona.edad >25){
-        miArrayEdad.push (persona);
+        result = console.log(persona);
     }
 }
-console.log(miArrayEdad);

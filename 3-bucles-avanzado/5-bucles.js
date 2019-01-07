@@ -18,7 +18,15 @@ console.log('El array original es:  arr =', arr);
 
 // Aquí tu código
 
+var obj = {
+    a: {
+        b: true,
+        c: ["",1],
+    },
+    d: 6,
+    f: "abcd",
 
+}
 // Hasta aquí
 console.log('El total nuevo es: ', total);
 
