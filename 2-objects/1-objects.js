@@ -5,7 +5,15 @@
 
 
 // Aquí tu código
-var ordenador = Object.assing("suspendes"..."eres el mejor");
+
+var ordenador = {
+
+    marca: "La pava",
+    tipo: "portátil",
+    perifericos:["","touchPad"],
+    almacenamiento: {discos:["SSD", "HDD"], maestro:0}
+};
+
 
 
 // Hasta aquí

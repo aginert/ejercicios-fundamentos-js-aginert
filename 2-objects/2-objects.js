@@ -6,6 +6,14 @@
 
 // Aquí tu código
 
+var obj = {
+    a: {
+        b:false, c:["",4817]
+    },
+    d:7,
+    f:"hola"
+}
+
 // Hasta aquí
 
 // TEST 1
