@@ -34,10 +34,10 @@ var gente = [{
     },
 ]
 
-var miArrayJ = [];    
+var miArray = [];    
 for (var persona of gente){
      if (persona.nombre[0] == "J"){
-        miArrayJ.push(persona);  
+        miArray.push(persona);  
     }
 }    
-console.log(miArrayJ);
+console.log(miArray);
